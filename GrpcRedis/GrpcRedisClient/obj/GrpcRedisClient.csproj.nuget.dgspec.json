@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj": {}
+    "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj": {
+    "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj",
+        "projectUniqueName": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj",
         "projectName": "GrpcRedisClient",
-        "projectPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj",
+        "projectPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisClient\\GrpcRedisClient.csproj",
         "packagesPath": "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisClient\\obj\\",
+        "outputPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

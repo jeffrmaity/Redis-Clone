@@ -11,8 +11,8 @@ namespace GrpcRedisServer
     {
         private readonly ILogger<GreeterService> _logger;
         readonly List<Variable> _variables;
-        readonly string _CommandNotSupported = "COMMAND NOT SUPPORTED !";
-        readonly string _WrongCommandArgs = "WRONG COMMAND ARGUMENTS !";
+        readonly string _CommandNotSupported = "Command Not Supported !";
+        readonly string _WrongCommandArgs = "Wrong Command Arguments !";
         readonly object myLock = new object();
         public GreeterService(ILogger<GreeterService> logger)
         {
@@ -21,13 +21,6 @@ namespace GrpcRedisServer
         public GreeterService(List<Variable> variables)
         {
             _variables = variables;
-        }
-        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
-        {
-            return Task.FromResult(new HelloReply
-            {
-                Message = "Hello " + request.Name
-            });
         }
         public override Task<CommandReply> ExecuteCommand(Command request, ServerCallContext context)
         {

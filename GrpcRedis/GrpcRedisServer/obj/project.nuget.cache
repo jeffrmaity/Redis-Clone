@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GFtzkadmj7FUlxk8H7aKPHYC/7g6p3YqAVEVCpeeGfrNOP5q9bK/Yy9IYHSpm8GdbUt8CyPgwR3LnzgMmqPIHw==",
+  "dgSpecHash": "tj669nvL1Ce4jgYgE1a6wd1hHJxNkDpBa0618Du5dICSTSMhRmhO8TeuRn8CRq/pyFA/fN4NYQjmfODIQ8E2bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
+  "projectFilePath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\grpc.core\\2.44.0\\grpc.core.2.44.0.nupkg.sha512",

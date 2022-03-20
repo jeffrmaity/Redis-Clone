@@ -49,21 +49,9 @@ namespace GrpcRedisServer {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcRedisServer.HelloRequest> __Marshaller_greet_HelloRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcRedisServer.HelloRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcRedisServer.HelloReply> __Marshaller_greet_HelloReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcRedisServer.HelloReply.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcRedisServer.Command> __Marshaller_greet_Command = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcRedisServer.Command.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcRedisServer.CommandReply> __Marshaller_greet_CommandReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcRedisServer.CommandReply.Parser));
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcRedisServer.HelloRequest, global::GrpcRedisServer.HelloReply> __Method_SayHello = new grpc::Method<global::GrpcRedisServer.HelloRequest, global::GrpcRedisServer.HelloReply>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "SayHello",
-        __Marshaller_greet_HelloRequest,
-        __Marshaller_greet_HelloReply);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::GrpcRedisServer.Command, global::GrpcRedisServer.CommandReply> __Method_ExecuteCommand = new grpc::Method<global::GrpcRedisServer.Command, global::GrpcRedisServer.CommandReply>(
@@ -83,18 +71,6 @@ namespace GrpcRedisServer {
     [grpc::BindServiceMethod(typeof(Greeter), "BindService")]
     public abstract partial class GreeterBase
     {
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::GrpcRedisServer.HelloReply> SayHello(global::GrpcRedisServer.HelloRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::GrpcRedisServer.CommandReply> ExecuteCommand(global::GrpcRedisServer.Command request, grpc::ServerCallContext context)
       {
@@ -109,7 +85,6 @@ namespace GrpcRedisServer {
     public static grpc::ServerServiceDefinition BindService(GreeterBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_SayHello, serviceImpl.SayHello)
           .AddMethod(__Method_ExecuteCommand, serviceImpl.ExecuteCommand).Build();
     }
 
@@ -120,7 +95,6 @@ namespace GrpcRedisServer {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, GreeterBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_SayHello, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcRedisServer.HelloRequest, global::GrpcRedisServer.HelloReply>(serviceImpl.SayHello));
       serviceBinder.AddMethod(__Method_ExecuteCommand, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcRedisServer.Command, global::GrpcRedisServer.CommandReply>(serviceImpl.ExecuteCommand));
     }
 

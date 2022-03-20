@@ -384,11 +384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
       "projectName": "GrpcRedisServer",
-      "projectPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
+      "projectPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
       "packagesPath": "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisServer\\obj\\",
+      "outputPath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\Redis-Clone\\GrpcRedis\\GrpcRedisServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
