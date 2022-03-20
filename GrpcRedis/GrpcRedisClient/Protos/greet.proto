@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcRedisClient";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc ExecuteCommand (Command) returns (CommandReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+message Command {
+	string command = 1;
+}
+
+message CommandReply {
+	string command = 1;
+}
+
+message Variable {
+  // The name of the variable.
+  string name = 1;
+
+  // The value of the variable.
+  string value = 2;
+}

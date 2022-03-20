@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "GFtzkadmj7FUlxk8H7aKPHYC/7g6p3YqAVEVCpeeGfrNOP5q9bK/Yy9IYHSpm8GdbUt8CyPgwR3LnzgMmqPIHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaafar.Rmaity\\source\\repos\\GrpcRedis\\GrpcRedisServer\\GrpcRedisServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\grpc.core\\2.44.0\\grpc.core.2.44.0.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\grpc.tools\\2.44.0\\grpc.tools.2.44.0.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Jaafar.Rmaity\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
