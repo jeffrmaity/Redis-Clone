@@ -15,3 +15,9 @@ LPUSH <VARNAME> <VALUE>: PUSH VALUE on the left of list VARNAME
 LPOP <VARNAME>: POP left value from list VARNAME
 LINDEX <VARNAME> <INDEX>: GET value at index INDEX from LIST VARNAME
 EXPIRES <VARNAME> <TIME>: EXPIRE value of VARNAME after TIME seconds
+
+
+How to Run ?
+
+Build the solution, and run the Server in a Terminal using the command: dotnet run
+Run the client either by Running the solution with GrpcRedisClient as the Startup Project, or by running the exe of the Client Project.
