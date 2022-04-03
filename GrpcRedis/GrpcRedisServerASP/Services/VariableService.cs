@@ -104,7 +104,7 @@ namespace GrpcRedisServerASP.Services
                 bool intResultTryParse = int.TryParse(variable.Value, out int intStr);
                 if (intResultTryParse == true)
                 {
-                    Variables = _INumberVariableRepository.IncrementVariable(Variables, name, 1);
+                    Variables = _INumberVariableRepository.DecrementVariable(Variables, name, 1);
                     return name + " Decremented Successfully With New Value: " + (intStr - 1);
                 }
                 else
@@ -129,7 +129,7 @@ namespace GrpcRedisServerASP.Services
                     intResultTryParse = int.TryParse(by, out int intBy);
                     if (intResultTryParse == true)
                     {
-                        Variables = _INumberVariableRepository.IncrementVariable(Variables, name, intBy);
+                        Variables = _INumberVariableRepository.DecrementVariable(Variables, name, intBy);
                         return name + " Decremented Successfully With New Value: " + (intStr - intBy);
                     }
                     else

@@ -41,7 +41,7 @@ C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\De
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.AssemblyInfoInputs.cache
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.AssemblyInfo.cs
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.CoreCompileInputs.cache
-C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.CopyComplete
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.dll
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.pdb
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.genruntimeconfig.cache
+C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.AssemblyReference.cache
