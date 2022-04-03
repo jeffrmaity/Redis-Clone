@@ -9,10 +9,9 @@ namespace GrpcRedisClient
     {
         static async Task Main(string[] args)
         {
-            var channel = new Channel("127.0.0.1:30052", ChannelCredentials.Insecure);
+            //var channel = new Channel("127.0.0.1:30052", ChannelCredentials.Insecure);
+            using var channel = GrpcChannel.ForAddress("https://localhost:5001");
             var client = new Greeter.GreeterClient(channel);
-            //var reply = await client.SayHelloAsync(
-            //                  new HelloRequest { Name = "RedisClient" });
 
             Console.WriteLine("Welcome to Mini Redis Clone System 2022");
 

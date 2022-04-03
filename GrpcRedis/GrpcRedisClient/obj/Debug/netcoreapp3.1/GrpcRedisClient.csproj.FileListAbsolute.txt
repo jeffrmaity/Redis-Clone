@@ -67,7 +67,6 @@ C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\bin\De
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
-C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\obj\Debug\netcoreapp3.1\GrpcRedisClient.csproj.AssemblyReference.cache
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\obj\Debug\netcoreapp3.1\GrpcRedisClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\obj\Debug\netcoreapp3.1\GrpcRedisClient.AssemblyInfoInputs.cache
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisClient\obj\Debug\netcoreapp3.1\GrpcRedisClient.AssemblyInfo.cs

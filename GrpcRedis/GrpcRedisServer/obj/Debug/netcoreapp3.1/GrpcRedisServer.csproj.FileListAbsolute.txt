@@ -37,11 +37,11 @@ C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\bin\De
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
-C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.AssemblyReference.cache
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.AssemblyInfoInputs.cache
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.AssemblyInfo.cs
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.CoreCompileInputs.cache
+C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.csproj.CopyComplete
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.dll
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.pdb
 C:\Users\Jaafar.Rmaity\source\repos\Redis-Clone\GrpcRedis\GrpcRedisServer\obj\Debug\netcoreapp3.1\GrpcRedisServer.genruntimeconfig.cache
